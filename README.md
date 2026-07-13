@@ -1,4 +1,4 @@
-🖼️ AI Image Annotation for Multi‑Class Scene Classification  
+## 🖼️ AI Image Annotation for Multi‑Class Scene Classification  
 
 ## 📌 Project Overview  
 This project demonstrates the process of manually annotating natural scene images using **Label Studio** to build a high‑quality labeled dataset for AI and Machine Learning applications.  

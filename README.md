@@ -48,17 +48,15 @@ The dataset was categorized into six scene classes and exported in **CSV** and *
 ---
 
 ## 📁 Project Structure  
-AI-Image-Annotation-Scene-Classification/
-│
+
+ AI-Image-Annotation-Scene-Classification/
 ├── annotations/
 │   ├── annotations.csv
-│   └── annotations.json
-│
+│   ├── annotations.json
 ├── screenshots/
-│
 ├── sample_images/
-│
 └── README.md
+
 
 ---
 

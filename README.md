@@ -16,7 +16,7 @@ The dataset was categorized into six scene classes and exported in **CSV** and *
 ---
 
 ## 📂 Dataset Information  
-- **Dataset**: Intel Image Classification Dataset  
+- **Dataset**: Intel Image Classification Dataset  (Kaggle)
 - **Images Annotated**: 100  
 - **Classes**: 6  
 
@@ -48,4 +48,28 @@ The dataset was categorized into six scene classes and exported in **CSV** and *
 ---
 
 ## 📁 Project Structure  
+AI-Image-Annotation-Scene-Classification/
+│
+├── annotations/
+│   ├── annotations.csv
+│   └── annotations.json
+│
+├── screenshots/
+│
+├── sample_images/
+│
+└── README.md
+
+---
+
+## 🚀 Future Improvements  
+- Train a **[MobileNetV2](ca://s?q=Train_MobileNetV2_model)** image classification model using the annotated dataset.  
+- Evaluate model performance with **[accuracy metrics](ca://s?q=Accuracy_metrics_in_image_classification)**.  
+- Build an **[image prediction app](ca://s?q=Build_image_prediction_app_with_TensorFlow)** using TensorFlow.  
+
+---
+
+## 👩‍💻 Author  
+**Deepika Kannan**  
+
 

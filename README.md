@@ -11,9 +11,18 @@ The project was completed to gain practical experience in **image annotation**, 
 The objective of this project is to create a clean and accurately annotated dataset by manually labeling scene images into predefined categories while maintaining consistency and annotation quality.  
 
 ---
+## ✨ Features
+
+- Manual annotation of 120 scene images
+- Six predefined scene categories
+- Single-label image classification
+- Ground-truth dataset creation
+- Quality assurance and annotation verification
+- Dataset organization using Python
 
 ## 📂 Dataset Information  
-- 📦 **Dataset Name**: Intel Image Classification Dataset  
+- 📦 **Dataset Name**: Intel Image Classification Dataset
+-  📚 **Source**: Intel Image Classification Dataset (Kaggle)
 - 🖼️ **Total Images**: 120  
 - 🏷️ **Classes**:  
   - 🏢 Building  
@@ -22,7 +31,8 @@ The objective of this project is to create a clean and accurately annotated data
   - ⛰️ Mountain  
   - 🌊 Sea  
   - 🛣️ Street  
-- 📝 **Annotation Type**: Single‑label Image Classification  
+- 📝 **Annotation Type**: Single‑label Image Classification
+  
 
 ---
 
@@ -34,6 +44,12 @@ The objective of this project is to create a clean and accurately annotated data
 - 🌐 GitHub  
 
 ---
+## ⚙️ Requirements
+
+- Python 3.13
+- Label Studio 1.20.0
+- Git
+ ---
 
 ## 🔄 Project Workflow  
 1. 📥 Downloaded the Intel Image Classification Dataset  
@@ -60,7 +76,6 @@ The objective of this project is to create a clean and accurately annotated data
 | 🛣️ Street   | Roads, highways, or urban street scenes |
 
 ---
-
 ## 📁 Folder Structure
 
 ```text
@@ -70,25 +85,26 @@ AI-Image-Annotation-Project/
 ├── Documentation/
 ├── Exports/
 ├── Python/
+│   └── create_professional_dataset.py
 ├── Screenshots/
 ├── README.md
 └── requirements.txt
-
+```
 
 ---
+## 🐍 Python Usage
 
-## 🐍 Python Usage  
-Python was used to organize the annotated dataset after labeling.  
+Python was used to organize the annotated dataset and generate a structured CSV file for documentation and analysis.
 
-The script automatically:  
-- 📂 Reads the dataset folders  
-- 🆔 Assigns unique image IDs  
-- 🖼️ Records image names  
-- 🏷️ Stores scene category labels  
-- 👩‍💻 Records the annotator name  
-- ✅ Adds QA verification status  
-- 📊 Generates a professional CSV dataset  
+The script:
 
+- Reads the dataset folders
+- Assigns unique image IDs
+- Extracts image names
+- Records scene labels
+- Stores annotator information
+- Adds QA verification status
+- Generates a professional CSV dataset for documentation
 ---
 
 ## 🔍 Quality Assurance  
@@ -102,7 +118,7 @@ To improve annotation quality:
 ---
 
 ## 🎉 Project Outcome  
-Successfully created a manually annotated image dataset containing **100 scene images across six classes** using Label Studio.  
+Successfully created a manually annotated image dataset containing **120 scene images across six classes** using Label Studio.  
 
 The project demonstrates practical experience in:  
 - 🖊️ Image Annotation  
@@ -126,11 +142,12 @@ The project demonstrates practical experience in:
 
 ---
 
-## 🚀 Future Improvements  
-- 📈 Increase dataset size  
-- 👥 Add multi‑annotator validation  
-- 📊 Measure annotation agreement  
-- 🤖 Train and evaluate an image classification model using the annotated dataset  
+## 🚀 Future Improvements
+
+- Expand the dataset with additional scene images.
+- Introduce multi-annotator validation.
+- Measure inter-annotator agreement.
+- Train and evaluate an image classification model.
 
 ---
 

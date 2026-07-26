@@ -1,77 +1,65 @@
-## 🖼️ AI Image Annotation for Multi‑Class Scene Classification  
+# 🖼️ AI Image Annotation for Multi‑Class Scene Classification  
 
 ## 📌 Project Overview  
-This project demonstrates the process of manually annotating natural scene images using **Label Studio** to build a high‑quality labeled dataset for AI and Machine Learning applications.  
+This project demonstrates the complete workflow of creating a high‑quality image annotation dataset for a computer vision classification task. Using **Label Studio**, I manually annotated **100 scene images** into six predefined categories to create ground‑truth data suitable for machine learning model training and evaluation.  
 
-The dataset was categorized into six scene classes and exported in **CSV** and **JSON** formats for future model training.  
+The project was completed to gain practical experience in **image annotation**, **dataset preparation**, **quality assurance**, and **annotation workflows** similar to those used in AI and Machine Learning Data Operations.  
 
 ---
 
-## 🎯 Objectives  
-- **[Labeled dataset preparation](ca://s?q=Explain_labeled_dataset_preparation)** for image classification.  
-- **[Image annotation with Label Studio](ca://s?q=How_to_use_Label_Studio_for_annotation)**.  
-- **[Structured annotation export](ca://s?q=Export_annotations_in_structured_format)** for AI workflows.  
-- **[Ground truth creation](ca://s?q=What_is_ground_truth_in_AI)** with accurate labels.  
+## 🎯 Objective  
+The objective of this project is to create a clean and accurately annotated dataset by manually labeling scene images into predefined categories while maintaining consistency and annotation quality.  
 
 ---
 
 ## 📂 Dataset Information  
-- **Dataset**: Intel Image Classification Dataset  (Kaggle)
-- **Images Annotated**: 100  
-- **Classes**: 6  
-
-### 🏷️ Categories  
-- **[Building](ca://s?q=Building_scene_classification)**  
-- **[Forest](ca://s?q=Forest_scene_classification)**  
-- **[Glacier](ca://s?q=Glacier_scene_classification)**  
-- **[Mountain](ca://s?q=Mountain_scene_classification)**  
-- **[Sea](ca://s?q=Sea_scene_classification)**  
-- **[Street](ca://s?q=Street_scene_classification)**  
+- 📦 **Dataset Name**: Intel Image Classification Dataset  
+- 🖼️ **Total Images**: 100  
+- 🏷️ **Classes**:  
+  - 🏢 Building  
+  - 🌲 Forest  
+  - 🧊 Glacier  
+  - ⛰️ Mountain  
+  - 🌊 Sea  
+  - 🛣️ Street  
+- 📝 **Annotation Type**: Single‑label Image Classification  
 
 ---
 
 ## 🛠️ Tools Used  
-- **[Label Studio](ca://s?q=Learn_about_Label_Studio)**  
-- **[Python](ca://s?q=Python_for_image_annotation)**  
-- **[Git](ca://s?q=Git_for_version_control)**  
-- **[GitHub](ca://s?q=GitHub_for_project_hosting)**  
+- 🖊️ Label Studio 1.20.0  
+- 🐍 Python 3.13  
+- 💻 Visual Studio Code  
+- 🔧 Git  
+- 🌐 GitHub  
 
 ---
 
-## 🔄 Annotation Workflow  
-1. Selected images from the Intel Image Classification Dataset.  
-2. Imported images into **Label Studio**.  
-3. Annotated each image manually.  
-4. Verified annotation quality.  
-5. Exported annotations in **CSV** and **JSON** formats.  
+## 🔄 Project Workflow  
+1. 📥 Downloaded the Intel Image Classification Dataset  
+2. 🗂️ Selected 100 images for annotation  
+3. 🏗️ Created a new Label Studio project  
+4. ⚙️ Configured the labeling interface with six scene categories  
+5. 📸 Imported the images into Label Studio  
+6. ✍️ Manually annotated each image  
+7. 🔍 Verified annotations for consistency and correctness  
+8. 📤 Exported the annotations in JSON and CSV formats  
+9. 🐍 Used Python to generate a structured professional dataset file  
 
 ---
 
-## 📁 Project Structure  
+## 🏷️ Label Categories  
 
- AI-Image-Annotation-Scene-Classification/
-├── annotations/
-    
-│   ├── annotations.csv
-    
-│   ├── annotations.json
-
-├── screenshots/
-
-├── sample_images/
-
-└── README.md
-
+| 🏷️ Label   | 📖 Description |
+|------------|----------------|
+| 🏢 Building | Images primarily containing buildings or man‑made structures |
+| 🌲 Forest   | Images dominated by trees and dense vegetation |
+| 🧊 Glacier  | Snow or ice‑covered landscapes |
+| ⛰️ Mountain | Rocky mountains or hills without dominant glacier coverage |
+| 🌊 Sea      | Oceans, beaches, or large water bodies |
+| 🛣️ Street   | Roads, highways, or urban street scenes |
 
 ---
 
-## 🚀 Future Improvements  
-- Train a **[MobileNetV2](ca://s?q=Train_MobileNetV2_model)** image classification model using the annotated dataset.  
-- Evaluate model performance with **[accuracy metrics](ca://s?q=Accuracy_metrics_in_image_classification)**.  
-- Build an **[image prediction app](ca://s?q=Build_image_prediction_app_with_TensorFlow)** using TensorFlow.  
-
----
-
-
-
+## 📁 Folder Structure  
 

@@ -61,7 +61,9 @@ The objective of this project is to create a clean and accurately annotated data
 
 ---
 
-## 📁 Folder Structure  
+## 📁 Folder Structure
+
+```text
 AI-Image-Annotation-Project/
 │
 ├── Dataset/
